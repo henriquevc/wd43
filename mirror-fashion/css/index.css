@@ -48,3 +48,38 @@ fixed = fixo com as propriedades definidas
     display: inline-block;
     margin-left: 20px;
 }
+
+section {
+    margin-top: 10px;
+}
+
+form {
+    background-color: #dcdcdc;
+    width: 230px;
+    border-radius: 4px 4px 0 0;
+    padding: 8px;
+}
+
+input[type="search"] {
+    border: 1px solid #acacac;
+    border-radius: 16px;
+    padding: 4px 8px;
+    outline: none;
+}
+
+.menu-departamentos {
+    background-color: #dcdcdc;
+    width: 230px;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 4px 4px 0 0;
+}
+
+.menu-departamentos h3 {
+    padding-bottom: 8px;
+}
+
+.menu-departamentos li {
+    background-color: #fff;
+    border-bottom: 2px solid #dcdcdc;
+}
