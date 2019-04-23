@@ -6,6 +6,7 @@ body {
 .container {
     margin: 0 auto;
     width: 940px;
+    position: relative;
 }
 
 .sacola {
@@ -17,6 +18,25 @@ body {
     width: 140px;
     padding: 8px 35px 0 0;
     display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* 
+posicionamento: 
+static = não posso usar propriedades do posicionamento com ele (top, left, right, bottom), ele respeita a sequencia de cima pra baixo, 
+da esquerda pra direita
+relative = igualzinho o static, só que consegue usar as propriedades de posicionamento(top, left, right, bottom), faz contenção de
+um elemento absolute dentro dele
+absolute = te obriga a utilizar as propriedades, e ele sai do fluxo da pagina, cria-se outra camada.
+fixed = fixo com as propriedades definidas
+*/
+
+.menu-opcoes {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 .menu-opcoes ul {
