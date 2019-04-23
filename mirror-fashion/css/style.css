@@ -17,6 +17,11 @@ p {
     text-align: justify;
 }
 
+#centro-distribuicao {
+    margin: 0 auto;
+    width: 550px;
+}
+
 figure {
     background-color: #f2eded;
     border: 1px solid #ccc;
@@ -33,4 +38,21 @@ figcaption {
 h2 {
     border-bottom: 2px solid #333333;
     margin-top: 30px;
+}
+
+#familia-pelho {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+footer {
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+footer img {
+    margin-right: 30px;
+    width: 94px;
+    vertical-align: middle;
 }
