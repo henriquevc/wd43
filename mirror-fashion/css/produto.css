@@ -126,7 +126,7 @@ header h1 {
     box-shadow: 0 1px 3px #777;
     padding: 0.5em 1em;
     display: block;
-    margin: 1em 0 1em auto;
+    margin: 1em 10px 1em auto;
     cursor: pointer;
 }
 
@@ -164,5 +164,46 @@ footer div {
 
 .social a[href*="plus.google"] {
     background-image: url(../img/googleplus.png);
+}
+
+@media (min-width: 640px) {
+    .produto {
+        position: relative;
+        padding-left: 40%;
+        font-size: 1.2em;
+    }
+
+    .cores {
+        position: static;
+        padding: 0;
+    }
+
+    .cores legend {
+        position: static;
+    }
+
+    .cores label img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 35%;
+        max-height: 100%;
+    }
+
+    .cores label::after {
+        position: static;
+        margin-right: 10px;
+        float: left;
+    }
+
+    .comprar {
+        margin: 1em 0;
+    }
+}
+
+@media (min-width: 1000px) {
+    .container {
+        width: 940px;
+    }
 }
 
